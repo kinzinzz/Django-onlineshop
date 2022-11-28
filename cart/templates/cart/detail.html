@@ -71,6 +71,6 @@
 
     <p class="text-right">
         <a href="{% url 'shop:product_all' %}" class="btn btn-secondary">Continue shopping</a>
-        {% comment %} <a href="{% url 'order:order_create' %}" class="btn btn-secondary">Checkout</a> {% endcomment %}
+        <a href="{% url 'orders:order_create' %}" class="btn btn-primary">Checkout</a>
     </p>
 {% endblock %}
